@@ -49,6 +49,7 @@ public class CadastroUsuario {
                             + email + "\n" + "Idade:" + idade);
             }
         });
+        // Cria um botão de seleção única para genero
         JRadioButton mascJRadioButton = new JRadioButton("Masculino");
         JRadioButton femJRadioButton = new JRadioButton("Feminino");
 
@@ -66,3 +67,4 @@ public class CadastroUsuario {
 
     }
 }
+
